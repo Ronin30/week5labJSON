@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <div id="emptySpace"></div>
+
+    <script>
+        var data = {
+            "users": [
+             {
+                 "firstName": "Hamed",
+                 "lastName": "Aboumerhi",
+                 "enrolled": 2017
+             },
+             {
+                 "firstName": "Jeff",
+                 "lastName": "Butts",
+                 "enrolled": 2016
+             }
+            ]
+        }
+
+        document.getElementById("emptySpace").innerHTML = data.users[1].firstName + " " + data.users[1].enrolled;
+         
+
+    </script>
+</body>
+</html>
